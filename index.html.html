@@ -1,0 +1,100 @@
+<html>
+<head>
+    <title>your travel partner</title>
+    <link rel="stylesheet" href="project.css">
+    <style>
+        .div1 {
+            background-image: url('https://imgs.search.brave.com/_6EOTaVkvt1mpmpAVOF612lyrSBVuilyAdImhY2OURM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA3LzM0LzIzLzAy/LzM2MF9GXzczNDIz/MDIyOF93NjVMeWdP/RXp5YXNKem80VXZW/Z2VzZWpSOTFtc0xW/UC5qcGc');
+            background-size: cover;
+            height: 60%;
+            margin-bottom: 20px;
+        }
+        .div2 {
+            background-color: linear-gradient(to right, #a440aa, rgb(72, 81, 184));
+        }
+        h2 {
+            margin-top: 20px;
+            padding: 0;
+        }
+        .forms{
+            display: flex;
+            flex-direction: column;
+            column-gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#apply">Apply</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="div1">
+
+        <section id="home">
+            <h1 style="color:#2113e6"><strong>Fly Beyond The Limits</strong></h1>
+            <br>
+            <br>
+            <h1>Welcome to Accessible Travel for Paralyzed People</h1>
+           <h2 style="color:#151517"><p>We aim to make travel more accessible for people with paralysis. Our services are tailored to your needs.
+            </p></h2>
+        </section>
+        <section id="about">
+            <h2>About Our Service</h2>
+            <h2 style="color:#151517"><p>We offer personalized travel arrangements that take accessibility into account, ensuring a comfortable
+                and enjoyable experience for paralyzed travelers.</p></h2>
+        </section>
+
+        <div class="forms">
+            <section id="apply">
+                <h2>Apply for Travel Assistance</h2>
+                <form id="travel-form">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="destination">Preferred Destination:</label>
+                    <input type="text" id="destination" name="destination" required>
+    
+                    <label for="accessibility">Accessibility Needs:</label>
+                    <textarea id="accessibility" name="accessibility" required></textarea>
+    
+                    <label for="date">Travel Date:</label>
+                    <input type="date" id="date" name="date" required>
+    
+                    <button type="submit">Submit Application</button>
+                </form>
+            </section>
+    
+            <section id="reviews">
+                <h2>User Reviews</h2>
+                <form id="review-form">
+                    <label for="destination">Destination:</label>
+                    <input type="text" id="destination" name="destination" placeholder="Enter destination">
+                    <label for="rating">Rating:</label>
+                    <input type="number" id="rating" name="rating" min="1" max="5">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" placeholder="Your experience..."></textarea>
+                    <button type="button" onclick="submitReview()">Submit Review</button>
+                </form>
+                <div id="reviews-list"></div>
+            </section>
+        </div>
+        
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to contact us via email at <a
+                    href="druthagshenoy@gmail.com">yourtravelpartner@gmail.com</a>.</p>
+        </section>
+    </div>
+    <script src="project.js"></script>
+</body>
+</html>
