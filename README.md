@@ -1,34 +1,32 @@
-# [Project Name] 🎯
+# [beyond the limits] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Drutha G Shenoy]
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [Drutha G Shenoy] - [College of Engineering Ado
 
 ### Hosted Project Link
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+[to help paralysed people explore the world]
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+[limitations of paralysed people to be within their home]
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+[providing them all the service and assistance to travel safely]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- [html,css,javascript]
 - [Frameworks used]
 - [Libraries used]
-- [Tools used]
+- [visual studio]
 
 For Hardware:
 - [List main components]
@@ -47,13 +45,13 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![Screenshot1](1.png)
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2](2.png)
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3](3.png)
 *Add caption explaining what this shows*
 
 # Diagrams
@@ -79,13 +77,14 @@ For Hardware:
 ![Build](Add photos of build process here)
 *Explain the build steps*
 
-![Final](Add photo of final product here)
+![l](Add photo of final product here)
 *Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[https://drive.google.com/file/d/1G8chU9L54-QLJiq3uBc42NRP50_-0vg5/view?usp=drive_link]
+
+*video shows the website through which people can book trips for paralysed persons
 
 # Additional Demos
 [Add any extra demo materials/links]
